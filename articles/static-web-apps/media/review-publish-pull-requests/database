@@ -1,0 +1,11 @@
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+INSERT INTO table persons (personID, LastName, FirstName, Adress, City)
+VALUES (1,' Varchar','Varchar','Varchar','Varchar');
+INSERT INTO table persons (personID, LastName1, FirstName, Adress, City)
+VALUES (2,' Varchar','Varchar','Varchar','Varchar');
+select* from persons
